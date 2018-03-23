@@ -1,7 +1,9 @@
 # This is a code book for data
 
 activity
+
 subject
+
 Time.Domain.BodyAcc.Mean.X
 Time.Domain.BodyAcc.Mean.Y
 Time.Domain.BodyAcc.Mean.Z
