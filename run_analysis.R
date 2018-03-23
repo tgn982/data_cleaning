@@ -81,6 +81,7 @@ names(selected) <- gsub("-",".", names(selected))
 ##           with the average of each variable for each activity and each subject.
 second <- summarize_all(group_by(selected,activity,subject),funs(mean))
 
-
+## write tidy data 
+write.table(second,"result.txt", row.name=FALSE)
 
 
