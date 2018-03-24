@@ -1,9 +1,15 @@
 # This is a code book for data
 
-activity  
-subject  
-Time.Domain.BodyAcc.Mean.X  
-Time.Domain.BodyAcc.Mean.Y  
+* activity :  
+  It means activity labels. 6 kinds of activity.
+  "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING" "LAYING"
+  
+* subject :  
+  It is subject number. 1~30
+  
+* Time.Domain.BodyAcc.Mean.X:  
+  Time Domain data 
+Time.Domain.BodyAcc.Mean.Y
 Time.Domain.BodyAcc.Mean.Z  
 Time.Domain.GravityAcc.Mean.X  
 Time.Domain.GravityAcc.Mean.Y  
@@ -55,10 +61,10 @@ Time.Domain.GravityAccMag.Standard.Deviation
 Time.Domain.BodyAccJerkMag.Standard.Deviation  
 Time.Domain.BodyGyroMag.Standard.Deviation  
 Time.Domain.BodyGyroJerkMag.Standard.Deviation  
-Frequency.Domain.BodyAcc.Standard.Deviation.X  
+Frequency.Domain.BodyAcc.Standard.Deviation.X   
 Frequency.Domain.BodyAcc.Standard.Deviation.Y  
 Frequency.Domain.BodyAcc.Standard.Deviation.Z  
-Frequency.Domain.BodyAccJerk.Standard.Deviation.X 
+Frequency.Domain.BodyAccJerk.Standard.Deviation.X  
 Frequency.Domain.BodyAccJerk.Standard.Deviation.Y  
 Frequency.Domain.BodyAccJerk.Standard.Deviation.Z  
 Frequency.Domain.BodyGyro.Standard.Deviation.X  
