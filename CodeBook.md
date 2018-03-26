@@ -1,7 +1,7 @@
 # This is a code book for data
 
 * activity :  
-  It means activity labels. 6 kinds of activity.
+  It means activity labels. 6 kinds of activity.  
   "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING" "LAYING"
   
 * subject :  
