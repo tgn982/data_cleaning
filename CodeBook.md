@@ -5,11 +5,21 @@
   "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING" "LAYING"
   
 * subject :  
-  It is subject number. 1~30
+  It is subject number. 1~30  
+
+* All data are mean or standard deviation, written as ".Mean", ".Standard.Deviation"
+* The data listed below are calculated base on mesured data.  
+* Prefix "Time.Domain" means Time Domain data  
+  Prefix "Frequency.Domain" means Frequency Domain data from FFT.  
   
-* Time.Domain.BodyAcc.Mean.X:  
-  Time Domain data 
-Time.Domain.BodyAcc.Mean.Y
+* ".BodyAcc", ".BodyGyro" mean body accelerate signal and body gyro signal  
+* ".GravityAcc" means body accelerate signal  
+* ".BodyAccJerk", ".BodyGyroJerk" mean Jerk signals  
+* ".X", ".Y", ".Z" are the axis of sensors.
+* "-Mag" are magnitude of these three-dimensional signals 
+
+Time.Domain.BodyAcc.Mean.X:   
+Time.Domain.BodyAcc.Mean.Y  
 Time.Domain.BodyAcc.Mean.Z  
 Time.Domain.GravityAcc.Mean.X  
 Time.Domain.GravityAcc.Mean.Y  
